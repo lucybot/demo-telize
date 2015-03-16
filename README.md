@@ -1,1 +1,1 @@
-A [http://lucybot.com](LucyBot) cookbook for the Telize API
+A [LucyBot](http://lucybot.com) cookbook for the Telize API
