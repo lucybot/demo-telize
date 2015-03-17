@@ -1,6 +1,6 @@
 {
 "name": "geo_ip",
-"title": "Telize Geo IP Address lookup",
+"title": "Geo IP Address lookup",
 "description": "Use Telize to get country, latitude, and longitude from an IP Address.",
 "free": true,
 "views": ["ip_info"],
@@ -12,7 +12,7 @@
     }
 }],
 "control_sets": [{
-  "title": "Look up the user's IP Address",
+  "title": "Enter an IP address to see information about its location",
   "affects": "geo_ip",
   "inputs": [{
     "name": "ipAddress",
@@ -20,5 +20,8 @@
     "type": "text",
     "default": "8.8.8.8"
   }]
+}, {
+  "title": "Here's how you can display the results",
+  "affects": "ip_info"
 }]
 }
